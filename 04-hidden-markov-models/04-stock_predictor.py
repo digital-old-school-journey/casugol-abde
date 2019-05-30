@@ -38,4 +38,4 @@ class StockPredictor(object):
  
  
 # Predictor for GOOGL stocks
-stock_predictor = StockPredictor(company='GOOGL')
+stock_predictor = StockPredictor(company='FB')
