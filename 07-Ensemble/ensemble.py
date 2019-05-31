@@ -13,7 +13,7 @@ from sklearn.preprocessing import Imputer
 from sklearn.preprocessing import MinMaxScaler
 
 #%%
-data = pd.read_csv('dataset/cancer.csv')
+data = pd.read_csv('/Users/pitichampeethong/website/casugol-abde/dataset/cancer.csv')
 data.head()
 
 #%%

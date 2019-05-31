@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/code.js"></script>
+    <title>Customer Cluster Prediction</title>
+  </head>
+  <body>
+    <br>
+    <div class="container main">
+  <div class="jumbotron" id="holder">
+    <h1 class='main_heading'> Customer Cluster Prediction</h1>
+    <br>
+    <br>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">Age:</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="age" placeholder=" Enter age" >
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Gender (Female = 0, Male = 1):</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="gender" placeholder=" Enter gender" >
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Income:</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="income" placeholder=" Enter income" >
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Spend (1-100):</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="spend" placeholder=" Enter spend" >
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="button" id="btn" name="btn" class="button btn btn-default">Submit</button>
+        </div>
+      </div>
+    </form>
+    <h2 class="result"></h2>
+  </div>
+</div>
+  </body>
+</html>

@@ -4,11 +4,6 @@ from warnings import simplefilter
 # ignore all future warnings
 simplefilter(action='ignore', category=FutureWarning)
 
-# import warnings filter
-from warnings import simplefilter
-# ignore all future warnings
-simplefilter(action='ignore', category=FutureWarning)
-
 #%%
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
